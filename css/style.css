@@ -1,0 +1,285 @@
+body {
+    width: 100vw;
+}
+
+.topo {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo div {
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.logo div h1 {
+    font-size: 32px;
+}
+
+.logo div p {
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+.topo .links a {
+    font-size: 18px;
+    color: #233032;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100vw;
+    height: 80vh;
+    background-color: #2f86d6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner div {
+    padding: 0 100px;
+    width: 50%;
+}
+
+.banner div h2 {
+    color: #fff;
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+.banner div p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.anuncio1 {
+    background-color: #233032;
+}
+
+.anuncio {
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.anuncio div {
+    padding-top: 20px;
+    width: 60%;
+    color:#fff;
+}
+
+.anuncio div h2 {
+    font-size: 24px;
+}
+
+.anuncio div p {
+    font-size: 16px;
+}
+
+.anuncio1 a {
+    background-color: #2f86d6;
+}
+
+.anuncio a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.anuncio a img {
+    padding-right: 10px;
+}
+
+.informacoes {
+    width: 100vw;
+    text-align: center;
+    padding: 60px 100px;
+}
+
+.informacoes h2 {
+    font-size: 32px;
+}
+
+.informacoes span {
+    color: #2f86d6;
+}
+
+.informacoes .quadro-info {
+    display: flex;
+    padding: 40px;
+}
+
+.informacoes .quadro-info img {
+    width: 80px;
+    padding-bottom: 40px;
+}
+
+.informacoes .quadro-info div h2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.informacoes .quadro-info div p {
+    font-size: 16px;
+    width: 90%;
+}
+
+.planos {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.planos table {
+    width: 70%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 0px 30px 10px #2f86d6;
+}
+
+.planos table th {
+    font-size: 18px;
+}
+
+.planos img {
+    width: 60px;
+}
+
+.planos table p {
+    padding: 0 20px;
+    font-size: small;
+    color: #a89f9f;
+    text-align: center;
+}
+
+.planos table .impar {
+    background-color: #f6f6f6;
+    font-size: 16px;
+}
+
+.planos table .par {
+    font-size: 16px;
+    background-color: #f1f3f7;
+}
+
+.planos table tr td {
+    padding: 10px 0;
+}
+
+.anuncio2 {
+    background-color: #2f89d6;
+}
+
+.anuncio2 a {
+    background-color: #233032;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.rodape .contato p {
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.rodape .desenvolvedor {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.rodape .desenvolvedor a {
+    text-decoration: none;
+    color: #2f86d6;
+}
+
+/* TABELA DE PREÇOS */
+
+.topo-tabela {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2f86d6;
+}
+
+.topo-tabela .paragrafo {
+    color: #fff;
+    font-weight: 600;
+}
+
+.topo-tabela .links a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.tabela-preco {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.tabela-preco td {
+    padding: 3px 10px;
+}
+
+.tabela-preco .dados {
+    background-color: #f8f9fa;
+}
+
+.tabela-preco thead, .descricao {
+    background-color: #f1f3f7;
+}
+
+.tabela-preco .descricao {
+    text-align: left;
+}
+
+.tabela-preco .marcador {
+    color:#2f86d6;
+    font-weight: 600;
+}
+
+.rodape-tabela-preco {
+    background-color: #2f86d6;
+    padding-bottom: 0;
+}
+
+.rodape-tabela-preco div p {
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.rodape-tabela-preco .desenvolvedor {
+    background-color: #fff;
+    width: 100vw;
+    text-align: center;
+}
+
+.rodape-tabela-preco .desenvolvedor p {
+    color: #000000;
+    padding-bottom: 0;
+}
